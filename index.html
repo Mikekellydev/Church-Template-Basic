@@ -1,176 +1,154 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Church Basic Template</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet" />
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      line-height: 1.6;
-      color: #333;
-    }
-
-    h1, h2, h3 {
-      font-family: 'Merriweather', serif;
-      margin: 0.5rem 0;
-    }
-
-    a {
-      text-decoration: none;
-      color: #3366cc;
-    }
-
-    /* Sticky Navbar */
-    .navbar {
-      position: sticky;
-      top: 0;
-      background-color: white;
-      z-index: 1000;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    .navbar a:hover {
-      text-decoration: underline;
-    }
-
-    /* Hero Section */
-    .hero {
-      background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.7)),
-                  url('https://source.unsplash.com/1600x900/?church') no-repeat center center/cover;
-      text-align: center;
-      padding: 4rem 1rem;
-    }
-
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-    }
-
-    .button {
-      background-color: #3366cc;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      transition: background-color 0.3s ease;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    .button:hover {
-      background-color: #254a99;
-      cursor: pointer;
-    }
-
-    /* Sections */
-    section {
-      padding: 3rem 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    /* Footer */
-    footer {
-      background-color: #f4f4f4;
-      padding: 2rem;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-
-    footer p {
-      margin: 0.5rem 0;
-    }
-
-    footer a {
-      margin: 0 0.5rem;
-      color: #3366cc;
-    }
-
-    /* Responsive Tweaks */
-    @media (max-width: 768px) {
-      h1, h2, h3 {
-        font-size: 1.5rem;
-        padding: 0 1rem;
-      }
-
-      section {
-        padding: 2rem 1rem;
-      }
-
-      .hero h1 {
-        font-size: 2rem;
-      }
-
-      .navbar {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-    }
-  </style>
+  <title>Home - Your Church Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Navigation -->
   <nav class="navbar">
-    <a href="#about">About</a>
-    <a href="#sermons">Sermons</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="sermons.html">Sermons</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Welcome to Your Church</h1>
-    <p>Where faith, family, and community grow together.</p>
-    <a href="#contact" class="button">Contact Us</a>
+  <section>
+    <h1>Welcome to Our Church</h1>
+    <p>Join us in worship, community, and service as we grow in faith together.</p>
   </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We are a community of believers rooted in Christ and committed to loving our neighbors. Join us for worship, study, and service.</p>
-  </section>
-
-  <!-- Sermons Section -->
-  <section id="sermons">
-    <h2>Recent Sermons</h2>
-    <p>Listen to the latest messages that encourage and equip you to walk in faith every day.</p>
-    <!-- Future embedded YouTube or podcast player could go here -->
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Have questions or prayer requests? Reach out and let us know how we can serve you.</p>
-    <a href="mailto:info@yourchurch.com" class="button">Email Us</a>
-  </section>
-
-  <!-- Footer -->
   <footer>
     <p><strong>Service Times:</strong> Sundays at 9:00am & 11:00am | Wednesdays at 6:30pm</p>
     <p><strong>Address:</strong> 123 Faith Lane, Hometown, ST 00000</p>
     <p>
-      <a href="#" target="_blank">Facebook</a> |
-      <a href="#" target="_blank">YouTube</a> |
-      <a href="#" target="_blank">Instagram</a>
+      <a href="#">Facebook</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">Instagram</a>
     </p>
     <p>&copy; 2025 Your Church Name. All rights reserved.</p>
   </footer>
+</body>
+</html>
 
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Your Church Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="sermons.html">Sermons</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h1>About Our Church</h1>
+    <p>We are a Christ-centered community committed to biblical teaching, worship, and service. Our mission is to love God, love people, and make disciples of all nations.</p>
+  </section>
+
+  <footer>
+    <p><strong>Service Times:</strong> Sundays at 9:00am & 11:00am | Wednesdays at 6:30pm</p>
+    <p><strong>Address:</strong> 123 Faith Lane, Hometown, ST 00000</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">Instagram</a>
+    </p>
+    <p>&copy; 2025 Your Church Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- sermons.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sermons - Your Church Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="sermons.html">Sermons</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h1>Recent Sermons</h1>
+    <div class="sermon">
+      <h2>"Hope in the Storm"</h2>
+      <p>Pastor John • May 25, 2025</p>
+      <p><a href="#">Watch Video</a> | <a href="#">Listen to Audio</a></p>
+    </div>
+    <div class="sermon">
+      <h2>"Living with Purpose"</h2>
+      <p>Pastor John • May 18, 2025</p>
+      <p><a href="#">Watch Video</a> | <a href="#">Listen to Audio</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Service Times:</strong> Sundays at 9:00am & 11:00am | Wednesdays at 6:30pm</p>
+    <p><strong>Address:</strong> 123 Faith Lane, Hometown, ST 00000</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">Instagram</a>
+    </p>
+    <p>&copy; 2025 Your Church Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Your Church Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="sermons.html">Sermons</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h1>Contact Us</h1>
+    <p>If you have questions or prayer requests, we’d love to hear from you.</p>
+    <p>Email: <a href="mailto:info@yourchurch.com">info@yourchurch.com</a></p>
+    <p>Phone: (555) 123-4567</p>
+  </section>
+
+  <footer>
+    <p><strong>Service Times:</strong> Sundays at 9:00am & 11:00am | Wednesdays at 6:30pm</p>
+    <p><strong>Address:</strong> 123 Faith Lane, Hometown, ST 00000</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">Instagram</a>
+    </p>
+    <p>&copy; 2025 Your Church Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
